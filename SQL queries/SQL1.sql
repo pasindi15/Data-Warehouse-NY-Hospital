@@ -1,0 +1,4 @@
+USE NYHospitalDW;
+CREATE LOGIN [NT Service\MSOLAP$DWBI] FROM WINDOWS;
+CREATE USER [NT Service\MSOLAP$DWBI] FOR LOGIN [NT Service\MSOLAP$DWBI];
+EXEC sp_addrolemember 'db_datareader', [NT Service\MSOLAP$DWBI];

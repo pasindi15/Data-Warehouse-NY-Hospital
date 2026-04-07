@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_Dimensions.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|solutionrelative:NYHospital_ETL\\Load_Dimensions.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|solutionrelative:NYHospital_ETL\\Load_FactAdmission.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Update_AccumulatingFact.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|solutionrelative:NYHospital_ETL\\Update_AccumulatingFact.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{CCDE57AC-911F-F832-CA62-7CFD393D60B9}|NYHospital_ETL\\NYHospital_ETL.dtproj|solutionrelative:NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Load_FactAdmission_SSIS.dtsx [Design]",
+              "DocumentMoniker": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx",
+              "RelativeDocumentMoniker": "NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx",
+              "ToolTip": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx [Design]",
+              "RelativeToolTip": "NYHospital_ETL\\Load_FactAdmission_SSIS.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR0SURBVFhHxZZbiFZVFMd/zkVNjKSsBsSM8PbQQyA9peJANGYqlmUJdlNScySHaMgkkiEh7EEkQproPlNZEBU95EMmBEakhVCO8yDdHC85kzbfzPd92XfWWj3svc\u002Bcc77LzOSDfzics89lr/9e67/\u002B\u002B8CVhJlNSI67Pj9sqoqKIGaYKqaGmKEqmBqavFZFTRF174oq5/v/2vRKx5bXk/PWQorAu59\u002BY4\u002BsWhSPRXEE1BADEXcdibuO1FA1SmqowIeffMbAhYtcHMxt6tq7fUwk6pIDVU0Oqa\u002BDhoYJTJpYx5RJdVw9pZ5pUxuYfk0DN17byIzpE5l5wyRuaZrM7BmTiUTZ2fYwQOfyx57bmJqsClIERNIExgMDVIUz/X/z6AMrADoX37d1VBI1MzAeqLoFnO/P8edAjrualwB03n73hpokLpuAgROhGaLK9l172PvaG3Tt/5hisQjQmf0miZQIX\u002B06YK3rWpK3asIMFDAx1ByRL746yoXBYXLDeS4O5jh46BBHvnwzFSeJdAZEksNRofguMXyrGkubF7Bm5WLWP7iUJYsWZj8pQ0NyIJkSPPvWz6lxwO71t6Jm7Hj7ePYRAO2r5yMKKpZ9VIYyDWjmm9LM\u002BakDQM0d1Z6LmveM5EyVkWlD53CjQdWopVcVZ2JqNV7yKPOBMcTHvOCqQcy753hLIKo1VxYg6lRfDaIu/VrrJY9MBiLU0h81nupNHfgVBoFVfO6Dj2Uxqf58YU\u002B3tW9\u002BiKlX1cf3zPxkPu3qVxdWOSI4N47EiVkUjvX2sWfv7rH7gCvBSAbMcNtvHNytLpRA1GVihMzIyv9XCVQkbh3XamEyd1YlNp1I3BYcxaS8iNWIQtbGUIOyDIgZZmBm7HjnOM\u002B/d5yd3T10fNDDi/t7eOmjE6i4AJG6n5FQBjVH0BJZGQ1lbSjiggfylY0GxPe6K4PPVuJHJehlNGScUGLBZbshiSA69amOsxDvC4Fk9TkCUurctnOfPdO6geunNSJqdLzfE686oPFUL63L58RpD2KLFLoP/ZJ6txJe3vct/LApjpvRgEtbOKpBxNmt6oS41uH9p\u002B65ma3LZrFl6Sw2t9zEE3fO5PHmGay9o4kVt12XnSpLwHVB2FqpajTuT1nMOWfoAgDD\u002BLekDA5f4mx/npN9g/x08gI/9g5w4Lu\u002BZDjIEnBt6MVk0L56Hk/fO49tK\u002BfSunwuTy6bw8aW2a7uEoTozcnXWxXyxRLDhRK5QomhfImhghsPF0vJcJAlIKGtzE/ulR4FwwntFUSmrhTu99zNoWoVg4dzFmVt6FKqzk79rpY0oNgB/bPIRkiA655KwYcKJfLFKBkOKhEQ8ysNGYiV7rMjjlAkXqyx6TgCIlox\u002BFC\u002BRP6fcgKpNlzbusva29r47dS5ET/wgZ0V\u002B3obqLgNx8ydVZXTxXrWLWziyImBsuC5QomzAwUOfn861YYpAms2d9ivv/\u002BRvDUuNN/fxqoF0/n66BmGCiVyGQEWLwmHj52rTuCysaCzunkkkSBwxfEf2Ro\u002B2Y\u002BJf70AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-22T08:23:11.98Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update_AccumulatingFact.dtsx [Design]",
+              "DocumentMoniker": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Update_AccumulatingFact.dtsx",
+              "RelativeDocumentMoniker": "NYHospital_ETL\\Update_AccumulatingFact.dtsx",
+              "ToolTip": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Update_AccumulatingFact.dtsx [Design]",
+              "RelativeToolTip": "NYHospital_ETL\\Update_AccumulatingFact.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR0SURBVFhHxZZbiFZVFMd/zkVNjKSsBsSM8PbQQyA9peJANGYqlmUJdlNScySHaMgkkiEh7EEkQproPlNZEBU95EMmBEakhVCO8yDdHC85kzbfzPd92XfWWj3svc\u002Bcc77LzOSDfzics89lr/9e67/\u002B\u002B8CVhJlNSI67Pj9sqoqKIGaYKqaGmKEqmBqavFZFTRF174oq5/v/2vRKx5bXk/PWQorAu59\u002BY4\u002BsWhSPRXEE1BADEXcdibuO1FA1SmqowIeffMbAhYtcHMxt6tq7fUwk6pIDVU0Oqa\u002BDhoYJTJpYx5RJdVw9pZ5pUxuYfk0DN17byIzpE5l5wyRuaZrM7BmTiUTZ2fYwQOfyx57bmJqsClIERNIExgMDVIUz/X/z6AMrADoX37d1VBI1MzAeqLoFnO/P8edAjrualwB03n73hpokLpuAgROhGaLK9l172PvaG3Tt/5hisQjQmf0miZQIX\u002B06YK3rWpK3asIMFDAx1ByRL746yoXBYXLDeS4O5jh46BBHvnwzFSeJdAZEksNRofguMXyrGkubF7Bm5WLWP7iUJYsWZj8pQ0NyIJkSPPvWz6lxwO71t6Jm7Hj7ePYRAO2r5yMKKpZ9VIYyDWjmm9LM\u002BakDQM0d1Z6LmveM5EyVkWlD53CjQdWopVcVZ2JqNV7yKPOBMcTHvOCqQcy753hLIKo1VxYg6lRfDaIu/VrrJY9MBiLU0h81nupNHfgVBoFVfO6Dj2Uxqf58YU\u002B3tW9\u002BiKlX1cf3zPxkPu3qVxdWOSI4N47EiVkUjvX2sWfv7rH7gCvBSAbMcNtvHNytLpRA1GVihMzIyv9XCVQkbh3XamEyd1YlNp1I3BYcxaS8iNWIQtbGUIOyDIgZZmBm7HjnOM\u002B/d5yd3T10fNDDi/t7eOmjE6i4AJG6n5FQBjVH0BJZGQ1lbSjiggfylY0GxPe6K4PPVuJHJehlNGScUGLBZbshiSA69amOsxDvC4Fk9TkCUurctnOfPdO6geunNSJqdLzfE686oPFUL63L58RpD2KLFLoP/ZJ6txJe3vct/LApjpvRgEtbOKpBxNmt6oS41uH9p\u002B65ma3LZrFl6Sw2t9zEE3fO5PHmGay9o4kVt12XnSpLwHVB2FqpajTuT1nMOWfoAgDD\u002BLekDA5f4mx/npN9g/x08gI/9g5w4Lu\u002BZDjIEnBt6MVk0L56Hk/fO49tK\u002BfSunwuTy6bw8aW2a7uEoTozcnXWxXyxRLDhRK5QomhfImhghsPF0vJcJAlIKGtzE/ulR4FwwntFUSmrhTu99zNoWoVg4dzFmVt6FKqzk79rpY0oNgB/bPIRkiA655KwYcKJfLFKBkOKhEQ8ysNGYiV7rMjjlAkXqyx6TgCIlox\u002BFC\u002BRP6fcgKpNlzbusva29r47dS5ET/wgZ0V\u002B3obqLgNx8ydVZXTxXrWLWziyImBsuC5QomzAwUOfn861YYpAms2d9ivv/\u002BRvDUuNN/fxqoF0/n66BmGCiVyGQEWLwmHj52rTuCysaCzunkkkSBwxfEf2Ro\u002B2Y\u002BJf70AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-21T17:48:11.507Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Load_FactAdmission.dtsx [Design]",
+              "DocumentMoniker": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission.dtsx",
+              "RelativeDocumentMoniker": "NYHospital_ETL\\Load_FactAdmission.dtsx",
+              "ToolTip": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_FactAdmission.dtsx [Design]",
+              "RelativeToolTip": "NYHospital_ETL\\Load_FactAdmission.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR0SURBVFhHxZZbiFZVFMd/zkVNjKSsBsSM8PbQQyA9peJANGYqlmUJdlNScySHaMgkkiEh7EEkQproPlNZEBU95EMmBEakhVCO8yDdHC85kzbfzPd92XfWWj3svc\u002Bcc77LzOSDfzics89lr/9e67/\u002B\u002B8CVhJlNSI67Pj9sqoqKIGaYKqaGmKEqmBqavFZFTRF174oq5/v/2vRKx5bXk/PWQorAu59\u002BY4\u002BsWhSPRXEE1BADEXcdibuO1FA1SmqowIeffMbAhYtcHMxt6tq7fUwk6pIDVU0Oqa\u002BDhoYJTJpYx5RJdVw9pZ5pUxuYfk0DN17byIzpE5l5wyRuaZrM7BmTiUTZ2fYwQOfyx57bmJqsClIERNIExgMDVIUz/X/z6AMrADoX37d1VBI1MzAeqLoFnO/P8edAjrualwB03n73hpokLpuAgROhGaLK9l172PvaG3Tt/5hisQjQmf0miZQIX\u002B06YK3rWpK3asIMFDAx1ByRL746yoXBYXLDeS4O5jh46BBHvnwzFSeJdAZEksNRofguMXyrGkubF7Bm5WLWP7iUJYsWZj8pQ0NyIJkSPPvWz6lxwO71t6Jm7Hj7ePYRAO2r5yMKKpZ9VIYyDWjmm9LM\u002BakDQM0d1Z6LmveM5EyVkWlD53CjQdWopVcVZ2JqNV7yKPOBMcTHvOCqQcy753hLIKo1VxYg6lRfDaIu/VrrJY9MBiLU0h81nupNHfgVBoFVfO6Dj2Uxqf58YU\u002B3tW9\u002BiKlX1cf3zPxkPu3qVxdWOSI4N47EiVkUjvX2sWfv7rH7gCvBSAbMcNtvHNytLpRA1GVihMzIyv9XCVQkbh3XamEyd1YlNp1I3BYcxaS8iNWIQtbGUIOyDIgZZmBm7HjnOM\u002B/d5yd3T10fNDDi/t7eOmjE6i4AJG6n5FQBjVH0BJZGQ1lbSjiggfylY0GxPe6K4PPVuJHJehlNGScUGLBZbshiSA69amOsxDvC4Fk9TkCUurctnOfPdO6geunNSJqdLzfE686oPFUL63L58RpD2KLFLoP/ZJ6txJe3vct/LApjpvRgEtbOKpBxNmt6oS41uH9p\u002B65ma3LZrFl6Sw2t9zEE3fO5PHmGay9o4kVt12XnSpLwHVB2FqpajTuT1nMOWfoAgDD\u002BLekDA5f4mx/npN9g/x08gI/9g5w4Lu\u002BZDjIEnBt6MVk0L56Hk/fO49tK\u002BfSunwuTy6bw8aW2a7uEoTozcnXWxXyxRLDhRK5QomhfImhghsPF0vJcJAlIKGtzE/ulR4FwwntFUSmrhTu99zNoWoVg4dzFmVt6FKqzk79rpY0oNgB/bPIRkiA655KwYcKJfLFKBkOKhEQ8ysNGYiV7rMjjlAkXqyx6TgCIlox\u002BFC\u002BRP6fcgKpNlzbusva29r47dS5ET/wgZ0V\u002B3obqLgNx8ydVZXTxXrWLWziyImBsuC5QomzAwUOfn861YYpAms2d9ivv/\u002BRvDUuNN/fxqoF0/n66BmGCiVyGQEWLwmHj52rTuCysaCzunkkkSBwxfEf2Ro\u002B2Y\u002BJf70AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-21T05:24:00.062Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Load_Dimensions.dtsx [Design]",
+              "DocumentMoniker": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_Dimensions.dtsx",
+              "RelativeDocumentMoniker": "NYHospital_ETL\\Load_Dimensions.dtsx",
+              "ToolTip": "E:\\Year 3\\Y3 S1\\DWBI - IT3021\\dataset\\NYHospital_ETL\\NYHospital_ETL\\Load_Dimensions.dtsx [Design]",
+              "RelativeToolTip": "NYHospital_ETL\\Load_Dimensions.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR0SURBVFhHxZZbiFZVFMd/zkVNjKSsBsSM8PbQQyA9peJANGYqlmUJdlNScySHaMgkkiEh7EEkQproPlNZEBU95EMmBEakhVCO8yDdHC85kzbfzPd92XfWWj3svc\u002Bcc77LzOSDfzics89lr/9e67/\u002B\u002B8CVhJlNSI67Pj9sqoqKIGaYKqaGmKEqmBqavFZFTRF174oq5/v/2vRKx5bXk/PWQorAu59\u002BY4\u002BsWhSPRXEE1BADEXcdibuO1FA1SmqowIeffMbAhYtcHMxt6tq7fUwk6pIDVU0Oqa\u002BDhoYJTJpYx5RJdVw9pZ5pUxuYfk0DN17byIzpE5l5wyRuaZrM7BmTiUTZ2fYwQOfyx57bmJqsClIERNIExgMDVIUz/X/z6AMrADoX37d1VBI1MzAeqLoFnO/P8edAjrualwB03n73hpokLpuAgROhGaLK9l172PvaG3Tt/5hisQjQmf0miZQIX\u002B06YK3rWpK3asIMFDAx1ByRL746yoXBYXLDeS4O5jh46BBHvnwzFSeJdAZEksNRofguMXyrGkubF7Bm5WLWP7iUJYsWZj8pQ0NyIJkSPPvWz6lxwO71t6Jm7Hj7ePYRAO2r5yMKKpZ9VIYyDWjmm9LM\u002BakDQM0d1Z6LmveM5EyVkWlD53CjQdWopVcVZ2JqNV7yKPOBMcTHvOCqQcy753hLIKo1VxYg6lRfDaIu/VrrJY9MBiLU0h81nupNHfgVBoFVfO6Dj2Uxqf58YU\u002B3tW9\u002BiKlX1cf3zPxkPu3qVxdWOSI4N47EiVkUjvX2sWfv7rH7gCvBSAbMcNtvHNytLpRA1GVihMzIyv9XCVQkbh3XamEyd1YlNp1I3BYcxaS8iNWIQtbGUIOyDIgZZmBm7HjnOM\u002B/d5yd3T10fNDDi/t7eOmjE6i4AJG6n5FQBjVH0BJZGQ1lbSjiggfylY0GxPe6K4PPVuJHJehlNGScUGLBZbshiSA69amOsxDvC4Fk9TkCUurctnOfPdO6geunNSJqdLzfE686oPFUL63L58RpD2KLFLoP/ZJ6txJe3vct/LApjpvRgEtbOKpBxNmt6oS41uH9p\u002B65ma3LZrFl6Sw2t9zEE3fO5PHmGay9o4kVt12XnSpLwHVB2FqpajTuT1nMOWfoAgDD\u002BLekDA5f4mx/npN9g/x08gI/9g5w4Lu\u002BZDjIEnBt6MVk0L56Hk/fO49tK\u002BfSunwuTy6bw8aW2a7uEoTozcnXWxXyxRLDhRK5QomhfImhghsPF0vJcJAlIKGtzE/ulR4FwwntFUSmrhTu99zNoWoVg4dzFmVt6FKqzk79rpY0oNgB/bPIRkiA655KwYcKJfLFKBkOKhEQ8ysNGYiV7rMjjlAkXqyx6TgCIlox\u002BFC\u002BRP6fcgKpNlzbusva29r47dS5ET/wgZ0V\u002B3obqLgNx8ydVZXTxXrWLWziyImBsuC5QomzAwUOfn861YYpAms2d9ivv/\u002BRvDUuNN/fxqoF0/n66BmGCiVyGQEWLwmHj52rTuCysaCzunkkkSBwxfEf2Ro\u002B2Y\u002BJf70AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-08T07:35:22.2Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

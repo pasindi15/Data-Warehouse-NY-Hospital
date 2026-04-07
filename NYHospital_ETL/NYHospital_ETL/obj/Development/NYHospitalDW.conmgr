@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NYHospitalDW"
+  DTS:DTSID="{4A4DBF23-3543-4614-9D56-9101869E6E99}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=PASINDI\DWBI;Initial Catalog=NYHospitalDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{4A4DBF23-3543-4614-9D56-9101869E6E99}PASINDI\DWBI.NYHospitalDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
