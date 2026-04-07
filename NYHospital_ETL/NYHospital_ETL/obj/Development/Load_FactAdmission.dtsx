@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/21/2026 10:53:59 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PASINDI"
+  DTS:CreatorName="PASINDI\Pasindi"
+  DTS:DTSID="{A1CC402F-0EA3-46B4-839C-07A34EF834EB}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{93E2366F-02B0-4358-8E94-D85661F63AA8}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NYHospitalDW]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{82ADBC94-D161-4E05-BC9F-C234A61BED4F}"
+      DTS:ObjectName="NYHospitalDW">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=PASINDI\DWBI;Initial Catalog=NYHospitalDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{82ADBC94-D161-4E05-BC9F-C234A61BED4F}PASINDI\DWBI.NYHospitalDW;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NYHospitalOLTP]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{1ABF2931-6313-4B9E-B6E4-6D408FAD53B3}"
+      DTS:ObjectName="NYHospitalOLTP">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=PASINDI\DWBI;Initial Catalog=NYHospitalOLTP;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{1ABF2931-6313-4B9E-B6E4-6D408FAD53B3}PASINDI\DWBI.NYHospitalOLTP;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Source1_Admissions]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{908485BF-A330-4FBA-901E-548B76AC8166}"
+      DTS:ObjectName="Source1_Admissions">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="E:\Year 3\Y3 S1\DWBI - IT3021\dataset\source1_admissions.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="txn_id"
+              DTS:DTSID="{E014D879-86B2-48E8-BE00-2FB87FA1DB70}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="facility_id"
+              DTS:DTSID="{3AF222BA-CD96-4316-9A3A-729BCDAE3B9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="discharge_year"
+              DTS:DTSID="{3C1CBCA6-38B0-42C1-A5A5-AB819EEB25B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="age_group"
+              DTS:DTSID="{5FF456CD-45CF-4282-8736-64AEE79BEE50}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="zip_code_3digit"
+              DTS:DTSID="{5139F27E-A37E-4461-9A7F-228F84A6532D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="gender"
+              DTS:DTSID="{99F3BF98-3AE5-4528-8DD1-D17DA7D2076A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="race"
+              DTS:DTSID="{6B465903-D05D-4008-8F5B-2174BAB51141}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ethnicity"
+              DTS:DTSID="{4C0E6500-F2E0-4B10-A1E8-84619889A197}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="length_of_stay"
+              DTS:DTSID="{EC1CEC15-8D43-4F92-A237-E75E652CE337}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="type_of_admission"
+              DTS:DTSID="{0CE22C81-AC67-456F-A752-78E32006796B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="patient_disposition"
+              DTS:DTSID="{58CBFB95-0DBA-41C3-B425-D6E33F96F90C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ccs_diagnosis_code"
+              DTS:DTSID="{654C48CA-72C9-46B6-890B-8F8BE7A0E0CE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ccs_procedure_code"
+              DTS:DTSID="{405A7152-1C5E-48B2-BB7D-F7FA065C4D87}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="source_of_payment_1"
+              DTS:DTSID="{89D5AE62-FDBD-401D-9C3B-3C89453035AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="source_of_payment_2"
+              DTS:DTSID="{4EB6E22A-2F70-4ACD-A08B-F3CE7D14CE08}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="source_of_payment_3"
+              DTS:DTSID="{847CD749-3590-430F-8C50-DDED38A15FBA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="birth_weight"
+              DTS:DTSID="{93EAC988-59EE-4830-A74D-6457EEE4CE3C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="abortion_edit_indicator"
+              DTS:DTSID="{E7197181-1518-4C35-BE81-D02513EEF7E8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="emergency_dept_indicator"
+              DTS:DTSID="{013CBC3A-14A2-4B0E-825D-DD9400166C80}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="total_charges"
+              DTS:DTSID="{FCC9FDF7-51DB-46F2-94E2-680939D69F54}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="total_costs"
+              DTS:DTSID="{8CDCCBFB-9B30-484F-8A80-EEA1521710F7}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Load FactAdmission"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C0CD0EF4-C1F1-4716-8343-3543167056C0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load FactAdmission"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{82ADBC94-D161-4E05-BC9F-C234A61BED4F}"
+          SQLTask:SqlStatementSource="INSERT INTO NYHospitalDW.dbo.FactAdmission (&#xA;    hospital_key, patient_key, date_key, diagnosis_key,&#xA;    procedure_key, payment_key, txn_id, type_of_admission,&#xA;    patient_disposition, emergency_dept_indicator,&#xA;    abortion_edit_indicator, birth_weight,&#xA;    length_of_stay, total_charges, total_costs,&#xA;    accm_txn_create_time&#xA;)&#xA;SELECT&#xA;    h.hospital_key,&#xA;    p.patient_key,&#xA;    d.date_key,&#xA;    diag.diagnosis_key,&#xA;    pr.procedure_key,&#xA;    pay.payment_key,&#xA;    s.txn_id,&#xA;    s.type_of_admission,&#xA;    s.patient_disposition,&#xA;    s.emergency_dept_indicator,&#xA;    s.abortion_edit_indicator,&#xA;    TRY_CAST(s.birth_weight AS INT),&#xA;    TRY_CAST(s.length_of_stay AS INT),&#xA;    TRY_CAST(s.total_charges AS DECIMAL(12,2)),&#xA;    TRY_CAST(s.total_costs AS DECIMAL(12,2)),&#xA;    GETDATE()&#xA;FROM NYHospitalOLTP.dbo.StagingAdmissions s&#xA;JOIN NYHospitalDW.dbo.DimHospital h &#xA;    ON CAST(s.facility_id AS INT) = h.facility_id AND h.is_current = 1&#xA;JOIN NYHospitalDW.dbo.DimPatient p &#xA;    ON s.age_group = p.age_group AND s.gender = p.gender &#xA;    AND s.race = p.race AND s.ethnicity = p.ethnicity&#xA;JOIN NYHospitalDW.dbo.DimDate d &#xA;    ON CAST(s.discharge_year AS INT) * 100 + 1 = d.date_key&#xA;JOIN NYHospitalDW.dbo.DimDiagnosis diag &#xA;    ON s.ccs_diagnosis_code = diag.ccs_diagnosis_code&#xA;JOIN NYHospitalDW.dbo.DimProcedure pr &#xA;    ON s.ccs_procedure_code = pr.ccs_procedure_code&#xA;JOIN NYHospitalDW.dbo.DimPayment pay &#xA;    ON s.source_of_payment_1 = pay.source_of_payment_1;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Load FactAdmission"
+          TopLeft="95.5,36.291666486404" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
